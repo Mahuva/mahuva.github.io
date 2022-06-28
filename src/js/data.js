@@ -3,7 +3,7 @@
 const data =
 {
     // ======== Usually English words =====
-    "hi":"Bhag bhosdina...",
+    "hi":"Bhag bhosdina...Khoti vash mar ma....kale thoy ne aavje..",
     "mc" : "MC BC ? ",
 
     "hello": "Hello",
