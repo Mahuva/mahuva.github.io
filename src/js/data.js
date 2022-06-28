@@ -4,6 +4,7 @@ const data =
 {
     // ======== Usually English words =====
     "hi":"Bhag bhosdina...",
+    "mc" : "MC BC ? ",
 //     "hi": "Hi..",
     "hello": "Hello",
     "good": "Good",
