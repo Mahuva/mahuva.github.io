@@ -3,7 +3,8 @@
 const data =
 {
     // ======== Usually English words =====
-    "hi": "Hi..",
+    "hi":"Bhag bhosdina...",
+//     "hi": "Hi..",
     "hello": "Hello",
     "good": "Good",
     "oye": "Oye ? ",
