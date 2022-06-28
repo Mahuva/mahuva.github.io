@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    font-size: 100%;
+    line-height: 45px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.header h1 {
+    margin-left: 10px;
+}
+
+.nav {
+    width: 0%;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+
+}
+
+.menu>hr {
+    width: 40px;
+    height: 4px;
+    margin: 4px;
+    border: none;
+    background-color: white;
+}
+
+.article {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.messagebox {
+    min-height: 500px;
+    background-color: rgb(44, 44, 44);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+.userWords {
+    height: 50px;
+    width: 240px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-indent: 10px;
+    background-color: black;
+}
+
+.memory {
+    height: 500px;
+    width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.robotp {
+    background-color: springgreen;
+    color: black;
+    text-align: left;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 35px 35px 35px 0px;
+    line-height: 30px;
+
+}
+
+.userp {
+    background-color: crimson;
+    color: white;
+    text-align: right;
+    width: 250px;
+    text-align-last: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 35px 35px 0px 35px;
+    line-height: 30px;
+
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sendButton {
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: springgreen;
+    color: black;
+    border: none;
+}
