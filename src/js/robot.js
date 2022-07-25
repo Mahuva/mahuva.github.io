@@ -31,7 +31,7 @@ const check = function () {
     if (element.length > 100) {
         console.log("removed")
         let select = document.querySelector(".memory")
-        select.removeChild(select.lastChild);
+        select.removeChild(select.firstchild);
     }
 
 }
