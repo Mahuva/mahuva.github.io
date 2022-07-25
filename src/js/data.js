@@ -13,6 +13,7 @@ const data =
     "i am fine": "That is good, i am also fine",
     "who are you": "i am a Robot 1.0.0 Made By Pruthviraj",
     "what is your name": "i am Robot made by Pruthviraj",
+    "who made you" : "Chauhan Pruthviraj Made me",
     "fine": "That is Good, i am aslo fine",
     "hullo": "Hello,..",
     "hallo": "Hello...",
